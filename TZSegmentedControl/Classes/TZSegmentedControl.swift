@@ -260,7 +260,7 @@
     
     private func setup(){
         self.addSubview(self.scrollView)
-        self.backgroundColor = UIColor.lightGray
+        self.backgroundColor = UIColor.clear
         self.isOpaque = false
         self.contentMode = .redraw
     }
